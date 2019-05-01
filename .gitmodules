@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:tremplin-edu/ood-tips.git
+	branch = master

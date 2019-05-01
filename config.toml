@@ -1,0 +1,56 @@
+baseURL = "https://ood.tips/"
+languageCode = "en-us"
+title = "Tremplin Edu | OOD Tips"
+copyright = "Anton Shabinskiy"
+theme = "hugo-paper"
+enableEmoji = true
+[params]
+  org = "Tremplin Edu"
+  project = "OOD Tips"
+[menu]
+
+  [[menu.main]]
+    name = "Tutorial"
+    url = "/tutorial"
+    weight = -140
+
+  [[menu.main]]
+    name = "Glossary"
+    url = "/glossary"
+    weight = -130  
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = -120  
+
+  [[menu.main]]
+    name = "Uni course"
+    url = "/ukma/"
+    weight = -110
+
+  [[menu.main]]
+    identifier = "disclaimer"
+    name = "Disclaimer"
+    url = "/disclaimer/"
+    weight = -100
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = -90
+
+[taxonomies]
+  category = "categories"
+  glossary = "glossary"
+  tag = "tags"
+
+[permalinks]
+  posts = "/:section/:title/"
+
+[frontmatter]
+  date = ["date", "publishDate", "lastmod"]
+  lastmod = [":git", "lastmod", "date", "publishDate"]
+  publishDate = ["publishDate", "date"]
+  expiryDate = ["expiryDate"]

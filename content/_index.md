@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Object-Oriented Design
 type: docs
 ---
 

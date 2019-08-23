@@ -1,0 +1,20 @@
+/* To be overridden by theme user */
+// @import "variables";
+
+@font-face {
+    font-family: 'Plaster';
+    src: url('fonts/plaster-regular-webfont.woff2') format('woff2'),
+         url('fonts/plaster-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.org-logo {
+    font-family: 'Plaster';
+    font-size: larger;
+}
+
+.org-logo sup {
+    color: rgb(30, 186, 255);
+    font-size: small;
+}

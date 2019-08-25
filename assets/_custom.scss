@@ -2,19 +2,28 @@
 // @import "variables";
 
 @font-face {
-    font-family: 'Plaster';
-    src: url('fonts/plaster-regular-webfont.woff2') format('woff2'),
-         url('fonts/plaster-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Plaster";
+  src: url("fonts/plaster-regular-webfont.woff2") format("woff2"),
+    url("fonts/plaster-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 .org-logo {
-    font-family: 'Plaster';
-    font-size: larger;
+  font-family: "Plaster";
+  font-size: larger;
 }
 
 .org-logo sup {
-    color: rgb(30, 186, 255);
-    font-size: small;
+  color: rgb(30, 186, 255);
+  font-size: small;
+}
+
+.site-title {
+  width: 50px;
+  display: inline-block;
+  margin-left: 10px;
+  padding-left: 10px;
+  border-left: solid 2px #999;
+  font-size: medium;
 }
